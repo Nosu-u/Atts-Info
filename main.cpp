@@ -25,8 +25,8 @@ class $modify(PlayLayer) {
 		return true;
 	}
 
-	void delayedResetLevel() {
-		PlayLayer::delayedResetLevel();
+	void update() {
+		PlayLayer::update();
 		auto work = m_currentAttempt;
 		char str[64];
 		sprintf(str, "Atts: %0d", work);
