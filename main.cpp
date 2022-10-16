@@ -25,8 +25,8 @@ class $modify(PlayLayer) {
 		return true;
 	}
 
-	void update() {
-		PlayLayer::update();
+	void update(float dt) {
+		PlayLayer::update(dt);
 		auto work = m_currentAttempt;
 		char str[64];
 		sprintf(str, "Atts: %0d", work);
