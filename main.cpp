@@ -33,11 +33,3 @@ class $modify(PlayLayer) {
 		g_atts->setString(str);
 	}
 };
-
-
-
-
-
-
-
-
