@@ -1,15 +1,8 @@
 {
-	"geode": "v0.1.0",
+	"geode": "0.6.1",
 	"version": "v1.0.0",
-	"id": "com.nosu.attsinfo",
+	"id": "nosu.attsinfo",
 	"name": "AttsInfo",
 	"developer": "Nosu",
-	"description": "shows your atts!",
-	"binary": "AttsInfo",
-	"dependencies": [
-		{
-			"id": "com.geode.api",
-			"required": false
-		}
-	]
+	"description": "It shows the current att you are in"
 }
